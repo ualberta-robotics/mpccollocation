@@ -1,6 +1,6 @@
-filename = 'obj2c_';
+filename = 't';
 
-for i=1:11   
+for i=1:10   
     
         [demos{i}.pos] = csvimport([filename, num2str(i),  ... 
             '/_slash_my_gen3_slash_base_feedback.csv'], ... 
