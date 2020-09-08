@@ -39,8 +39,8 @@ Repository containing code snippets in Python and Matlab for Kinova Trajectory O
     Awesome! We are almost done!
 
     #### First Step
-    Now open up MATLAB and navigate to the m file ```csvtomat.m```. The m file assumes that you have the csv files within each forder name t1 to tn for n trajectories.
-    Make sure the path of the workspace is same as that of the folders and run the cleancsvtomat.m
+    Now open up MATLAB and navigate to the m file ```Extrinsic_CSV_to_MAT.m```. The m file assumes that you have the csv files within each forder name t1 to tn for n trajectories. Make changes to the number of trajectories in the for loop of the code and also the filename if you don't want the 't' foldername.
+    Make sure the path of the workspace is same as that of the folders and run the Extrinsic_CSV_to_MAT.m
 
     *What this does is make arrays posdemos and veldemos for the trajectory points, basically filtering into smoother spline like trajectories with lesser jerks and consistent size* 
 
