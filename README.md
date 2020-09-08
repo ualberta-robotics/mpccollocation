@@ -76,11 +76,12 @@ Repository containing code snippets in Python and Matlab for Kinova Trajectory O
 
     ```
     rostopic pub /kinova_selected_object /kinova_selected_obj
-    ``` and hit *double tab*
+    ``` 
+    and hit *double tab*
 
     This sends out a dummy message to start the process.
 
-   *And now !!! .... (drumroll)*
+    *And now !!! .... (drumroll)*
 
     *The Kinova moves to a starting point followed by a trajectory*
 
