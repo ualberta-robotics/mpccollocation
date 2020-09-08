@@ -61,7 +61,7 @@ Repository containing code snippets in Python and Matlab for Kinova Trajectory O
     and run 
 
     ```
-    roslaunch kinova_joy kinova_joy_no_gui
+    roslaunch kinova_joy kinova_gmm_control_no_gui.launch
     ```
 
     *Thanks to Jakub, this script helps in interfacing with the Kinova beautifully*
