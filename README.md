@@ -26,7 +26,9 @@ Repository containing code snippets in Python and Matlab for Kinova Trajectory O
 
     Simply run 
     
-    ```python Intrinsic_Extrinsic_Conv.py ``` 
+    ```
+    python Intrinsic_Extrinsic_Conv.py 
+    ``` 
     
     for each of the csv files. The script assumes that the csv is in the same folder as the script. 
     Run this for all csv files you have.
@@ -58,7 +60,9 @@ Repository containing code snippets in Python and Matlab for Kinova Trajectory O
     ```ssh 192.168.1.60```
     and run 
 
-    ```roslaunch kinova_joy kinova_joy_no_gui```
+    ```
+    roslaunch kinova_joy kinova_joy_no_gui
+    ```
 
     *Thanks to Jakub, this script helps in interfacing with the Kinova beautifully*
 
@@ -70,7 +74,9 @@ Repository containing code snippets in Python and Matlab for Kinova Trajectory O
 
     On the *vis* system terminal, use the following:
 
-    ```rostopic pub /kinova_selected_object /kinova_selected_obj``` and hit *double tab*
+    ```
+    rostopic pub /kinova_selected_object /kinova_selected_obj
+    ``` and hit *double tab*
 
     This sends out a dummy message to start the process.
 
