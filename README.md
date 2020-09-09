@@ -75,9 +75,17 @@ Repository containing code snippets in Python and Matlab for Kinova Trajectory O
     On the *vis* system terminal, use the following:
 
     ```
-    rostopic pub /kinova_selected_object /kinova_selected_obj
+    rostopic pub /kinova_selected_obj kinova_joy/selectedObject "centroid:
+     x: 0.0
+     y: 0.0
+     z: 0.0
+    axis:
+     x: 0.0
+     y: 0.0
+     z: 0.0
+    length_to_top: 0.0"
     ``` 
-    and hit *double tab*
+    you can hit *double tab* to autofill the default values to 0.0
 
     This sends out a dummy message to start the process.
 
