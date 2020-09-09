@@ -95,9 +95,17 @@ Repository containing code snippets in Python and Matlab for Kinova Trajectory O
 
 6. ### Time to Shine!
 
-    Now that we have the trajectory, we can visualize it easily. The trajectories are all basically stored in *vis* when the code running is complete. 
+    Now that we have the trajectory, we can visualize it easily. The trajectories are all basically stored in *vis* when the code running is complete in the folder named *data_for_dhruv*
 
-    Navigate to and run ```analysis_script.bash``` 
+    The folder itself saves the trajectories in the form of time stamped txt files so its easy for you to see the most recent one.
+
+    For the latest run txt file you want to analyse, use the ```cp``` copy command to copy to filename ```source.txt```
+    Example:
+    ```
+    cp 2020-09-09T20\:43\:23.167961_gmm_data.txt source .txt
+    ```
+
+    Now navigate to and run ```./analysis_script.bash``` 
 
     This creates 4 different files each containing - 
     * Commanded Position
