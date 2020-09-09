@@ -102,7 +102,7 @@ Repository containing code snippets in Python and Matlab for Kinova Trajectory O
     For the latest run txt file you want to analyse, use the ```cp``` copy command to copy to filename ```source.txt```
     Example:
     ```
-    cp 2020-09-09T20\:43\:23.167961_gmm_data.txt source .txt
+    cp 2020-09-09T20\:43\:23.167961_gmm_data.txt source.txt
     ```
 
     Now navigate to and run ```./analysis_script.bash``` 
