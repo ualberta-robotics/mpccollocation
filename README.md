@@ -1,6 +1,8 @@
 # MPC style Direct Collocation for Kinova Trajectory Planning
 Repository containing code snippets in Python and Matlab for Kinova Trajectory Optimization
 
+The example codes assume you area working on workstation *hulk* wuth the Kinova nodes running on the worksation *vis*
+
 ## The Procedure Step-By-Step
 
 1. ### Recording robot trajectories and saving to rosbag files
